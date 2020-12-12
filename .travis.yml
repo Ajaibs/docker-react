@@ -10,3 +10,8 @@ before_install:
 script:
   - docker run -e CI=true Ajaibs/docker-react npm run test
 
+matrix:
+  include:
+    - dist: bionic
+    - dist: xenial
+
