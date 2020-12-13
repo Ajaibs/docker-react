@@ -7,13 +7,12 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-	<h1 className="App-title">Wlecome to React!!!!</h1>
-      <header>
-        <p className="App-intro">
-		I was chengrede.
-        </p>
+        <p>Bye there!</p>
+        <p> Hi its me neew code</p>
+      </header>
     </div>
   );
 }
 
 export default App;
+
